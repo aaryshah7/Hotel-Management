@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(78, 78, 208); 
+
+}
+.content2
+{
+    width: 100vw;
+    height: 90vh;
+    /* border: 1px solid black; */
+    background-color: rgb(78, 78, 208); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    height: 130%;
+    width: 130%;
+    background-image: url('gang.jpg');
+    background-attachment:fixed;
+    background-size:contain;
+    background-position:unset;
+    /* margin-right: -40px; */
+    background-repeat: no-repeat;
+    border-top-left-radius:60px;
+    border-bottom-left-radius: 60px;
+    border-right: 30px solid white;
+}
+.div2{
+    background-color: rgb(196 227 245);
+    height: 130%;
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-top-right-radius:60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+}
+.jayho{
+    width:300px;
+    height: 90px;
+    
+    /* border: solid 1px black; */
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(78, 78, 208); 
+    color: white;
+    border: 1px solid rgb(78, 78, 208);
+    border-radius: 10px;
+}
+
+.btn1{
+    margin: 10px;
+    padding: 10px 61px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(78, 78, 208); 
+    color: white;
+    border: 1px solid rgb(78, 78, 208);
+    border-radius: 10px;
+}
